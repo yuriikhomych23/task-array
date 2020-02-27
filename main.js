@@ -1,63 +1,81 @@
+//TASK1
+// const arr1 = arrCopy([1, 2, 3]);
 
-//TASK 1
-// const arr1 = [1, 2, 3];
+// function arrCopy(arr) {
+//     const copy = arr.slice(0);
+//     return copy;
+// }
+// console.log(arr1);
 
-// const arrCopy = arr1.slice();
-// console.log(arrCopy);
+// const arr2 = arrCopy([1, 2, 3, [10, 20]]);
+// console.log(arr2);
 
-// const arr2 = [1,2,3,[10,20]];
-
-// const arrCopy2 = arr2.slice();
-// console.log(arrCopy2);
 
 
 //TASK 2
+// const arr1 = arrToString([1,2,3]);
 
-// const arr1 = [1,2,3];
+// const arr2 = arrToString([10,200,3333]);
 
-// const arrToString = arr1.join();
+// function arrToString(arr) {
+//     const str = arr.join().split();
+//     return str;
+// }
+// console.log(arr1);
+// console.log(arr2);
+
+
+
+//TASK 3 
+// const arr1 = getLength(['Ivan', 'Pavlo', 'Ira']);
+// const arr2 = getLength(['Oleksiy', 'Andriana']);
+// function getLength(arr) {
+//     const c = [];
+//     for (let key in arr) {
+//         c[key] = arr[key].length;
+        
+//     }
+//     return c;
+// }
 
 // console.log(arr1);
-// console.log(arrToString);
-
-
-// const arr2 = [10,200,3333];
-
-// const arrToString2 = arr2.join();
-
 // console.log(arr2);
-// console.log(arrToString2);
-
-
-//TASK 3
-
-// const arr1 = ['Ivan','Pavlo', 'Ira'];
-
-// let splice = arr1.splice(0, 1);
-// for (let i = 0; i < splice.length; i++) {
-//     console.log(splice.length);
-// };
-
-
-// let splice2 = arr1.splice(1, 1);
-// for (let i = 0; i < splice2.length; i++) {
-//     console.log(splice2.length)
-// };
-
-
-// let splice3 = arr1.splice(2, 1);
-// for (let i = 0; i < splice3.length; i++) {
-//     console.log(splice3.length)
-// };
 
 
 
-// const arr1 = arrCopy([1, 2, 3]);
-// function arrCopy(arr) {
-//     const a = arr.slice(0);
-//     return a;
+
+
+//TASK 4
+
+// const arr1 = removeDuplicates(['html','css','html','js']);
+// const arr2 = removeDuplicates(['html','css','js','html','js','python','js','scss']);
+// function removeDuplicates(arr) {
+//     const remove = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         const origin = arr[i];
+//         if (remove.indexOf(origin) == -1) {
+//             remove.push(origin)
+//         }
+//     }
+//     return remove;
 // }
 
 // console.log(arr1)
+// console.log(arr2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
